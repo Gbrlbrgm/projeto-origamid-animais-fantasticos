@@ -15,7 +15,7 @@ export default class ScrollSuave {
     const href = event.currentTarget.getAttribute('href');
     const section = document.querySelector(href);
     section.scrollIntoView(this.options);
-  };
+  }
 
   addLinkEvent() {
     this.linksInternos.forEach((link) => {
@@ -29,5 +29,4 @@ export default class ScrollSuave {
     }
     return this;
   }
-
 }
